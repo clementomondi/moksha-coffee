@@ -1,0 +1,132 @@
+.body-container {
+    font-family: 'poppins', sans-serif;
+    background-color: #282424;
+    /* height:100vh;
+width: 100vw; */
+}
+
+.container {
+    height: 700px;
+    margin: 100px;
+    background-color: rgb(60, 50, 50);
+}
+
+.container-1 {
+    background-image: url('https://images.unsplash.com/photo-1599229809585-f92ea053b547?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzY1fHxjYWZlfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60');
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 450px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.auction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    justify-content: center;
+    color: white;
+    margin-top: -20px;
+}
+
+.slide-container {
+    height: 150px;
+    width: 750px;
+    margin: 30px;
+    margin-left: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    position: relative;
+    height: 110px;
+    width: 170px;
+    padding-left: 10px;
+    transition: 5s;
+    filter: saturate(200%);
+}
+
+.image-slider {
+    position: absolute;
+    align-items: center;
+    height: 20px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    transition: 7s;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -140px;
+}
+
+.auction {
+    background-color: transparent;
+    border-color: white;
+    padding: 15px;
+    border-radius: 0.3em;
+    font-size: 13px;
+}
+
+.slide-div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.mok {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-style: initial;
+    padding: 16px;
+}
+
+.button {
+    position: absolute;
+    height: 110px;
+    width: 170px;
+    padding-left: 10px;
+    transition: 5s;
+    background-color: transparent;
+}
+
+.button:hover {
+    background-color: rgb(94, 90, 90);
+}
